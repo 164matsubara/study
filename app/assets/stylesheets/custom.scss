@@ -4,44 +4,71 @@
 /* universal */
 
 body {
-  padding-top: 60px;
-  font-family: "游ゴシック", "Yu Gothic", "Segoe UI", "Meiryo UI" ;
+  padding-top: 20px;
+  font-family:"Segoe UI", "Meiryo UI" ;
 }
 
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu ul:after {
+  content: "";
+  clear: both;
+}
+
+.menu li {
+  float: left;
+  width: auto;
+}
+
+.boxA:after {
+  content: "";
+  clear: both;
+}
+.box0 {
+  float: left;
+  width: 80%;
+}  
 
 .box1 {
-    
+  float: right;
+  width: 20%;
+  box-sizing: border-box;
+}  
+
+.box1 a {
+  display:block;
+  text-align: center;
+  border: solid 4px #0066bb;
+  border-radius: 4px;
+  margin-right: 60px;
 }
 
-.box2 {
-    
+
+.menu {
+  float: left;
+  width: 100%;
+  background-color: #888888;
+} 
+
+.box1 a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  
 }
 
-.box3 {
-    
-}
-
-.box4 {
-    
-}
-
-.box5 {
-    
-}
-
-.box6 {
-    
-}
-
-.box7 {
-    
-}
-
-.box8 {
-    
-}
-
-.box9 {
-    
-}
