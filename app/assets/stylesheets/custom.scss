@@ -49,7 +49,7 @@ body {
 }  
 
 .box1 a {
-  display:block;
+  display: block;
   text-align: center;
   border: solid 4px #0066bb;
   border-radius: 4px;
@@ -71,4 +71,28 @@ body {
   text-decoration: none;
   
 }
+.large_explanation {
+  width: 1280px;
+  margin: 100px 0px 20px 200px ;
+  padding-left: 50px;
+  background-color: #888888;
+}
 
+.box_works {
+  width: 1280px;
+  margin-left: 200px;
+  padding-left: 50px;
+  background-color: #888888;
+}
+
+.box_works:after {
+  content: "";
+  clear: both;
+}
+
+
+.each_work {
+  padding-bottom: 40px;
+  float: left;
+  width: 20%;
+}
