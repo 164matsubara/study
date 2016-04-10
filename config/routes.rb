@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'structures/show'
+
+  get 'standard_accessories/show'
+
+  get 'spec_sheets/show'
+
+  get 'optional_accessories/show'
+
+  get 'features/show'
+
+  get 'customizables/show'
+
+  get 'series/new'
+
+  get 'categories/show'
+
   root to: 'static_pages#home'
   get 'works_path', to: 'works#index'
   end  

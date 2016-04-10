@@ -1,0 +1,18 @@
+﻿Liquid quality,Clean water 0?90℃ (Should be no freezing),GE-2M
+Material,"Impeller: Cast iron,  Bronze,  Aluminum bronze<br>Shaft: Stainless403(portion contacting liquid)<br>Casing: Cast iron",GE-2M
+Shaft seal,Mechanical seal (SiC x Carbon),GE-2M
+Motor,"TEFC Indoor type<br>Three phase<br>Synchronous speed 50Hz: 3,000min-1 60Hz: 3,600min-1",GE-2M
+Flange,JIS 10K  Standard type,GE-2M
+Liquid quality,Clean water 0?40℃ (Should be no freezing),TVS
+Material,Impeller: Cast iron<br>Shaft: Stainless403<br>Casing: Cast iron,TVS
+Shaft seal,Gland packing,TVS
+Motor,"TEFC Indoor type<br>Three phase<br>Synchronous speed 50Hz: 1,500min-1 60Hz: 1,800min-1",TVS
+Liquid quality,"Waste water, Sewage water 0?40℃(pH 5~9)",WUO
+Material,Impeller: Resin<br>Shaft: Stainless304(portion contacting liquid)<br>Casing: Resin,WUO
+Motor,"Dry submerged motor<br>Single phase<br>Three phase<br>Synchronous speed 50Hz: 3,000min-1 60Hz: 3,600min-1",WUO
+Liquid quality,Sea water/Clean water 0~60℃ (Should be no freezing)<br>[Clean water]: pH 5.8~8.6<br>[Sea water]: pH 7.8~8.2　Chloride ion concentration approx. 19000mg/L<br>Sand content less than 1000mg/L,GSP
+Material,Impeller: Resin<br>Shaft: Stainless316<br>Casing: Resin<br>Base: Cast iron(Polyester powder coating),GSP
+Motor,"TEFC Outdoor type<br>Single phase, Three phase<br>Synchronous speed 50Hz: 3,000min-1 60Hz: 3,600min-1",GSP
+Liquid quality,Clean water 0?40℃ (Should be no freezing),KFE
+Material,Impeller: Resin or Stainless<br>Shaft: Stainless304(portion contacting liquid)<br>Casing: Stainless cast steel 304,KFE
+Motor,TEFC Indoor type<br>Three phase,KFE

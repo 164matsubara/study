@@ -1,0 +1,134 @@
+﻿1,Casing,Cast iron,,,,GE-2M
+2,Casing cover,Cast iron,,,,GE-2M
+3,Impeller,Cast iron or Bronze or Aluminum bronze,,,,GE-2M
+4,Shaft,Stainless 403 (GEN:SUS316),,,,GE-2M
+5,Deflector,Rubber,,,,GE-2M
+6,Gland,Bronze,,,,GE-2M
+7,Lantern ring,Bronze,,,,GE-2M
+8,Mechanical seal,,,,,GE-2M
+9,Gland packing,,,,,GE-2M
+10,O-ring,Rubber,,,,GE-2M
+11,Shaft coupling body,Cast iron,,,,GE-2M
+12,Ball bearing,,,,,GE-2M
+13,Bearing box,Cast iron,,,,GE-2M
+14,Bearing cover,Cast iron,,,,GE-2M
+15,Cap point set screw,Stainless 304,,,,GE-2M
+16,Stage bolt,Brass,,,,GE-2M
+17,Nut,Stainless 304,,,,GE-2M
+18,Nut,Brass,,,,GE-2M
+19,Plane washer,Stainless 304,,,,GE-2M
+20,Wave washer,Stainless 304,,,,GE-2M
+21,Key,Stainless 403,,,,GE-2M
+22,Key,Carbon steel,,,,GE-2M
+23,Mechanical seal cover,Bronze (GEN: Stainless cast steel 304),,,,GE-2M
+24,Support,Cold rolled Steel,,,,GE-2M
+25,Stopper ring,Stainless 316,,,,GE-2M
+26,Male and female elbow,FCMB28,,,,GE-2M
+1,Motor,,,,,GSP
+2,Casing,Resin,,,,GSP
+3,Casing cover,Cast iron 150,,,,GSP
+4,Impeller,Resin (PA6、PPS),,,,GSP
+5,Deflector,Rubber,,,,GSP
+6,Guide vane,Resin (PA6),,,,GSP
+7,Square flange with valve seat,Resin (PPE),,,,GSP
+8,Nipple,Resin (PPE),,,,GSP
+9,Plug,Resin (PC),,,,GSP
+10,Cap,Resin (PP),,,,GSP
+11,Mechanical seal,,,,,GSP
+12,O-ring,Rubber,,,,GSP
+13,Ring packing,Rubber,,,,GSP
+14,Packing,Rubber,,,,GSP
+15,Packing,Rubber,,,,GSP
+16,Square packing with valve body,Rubber,,,,GSP
+17,Bolt,Stainless 304,,,,GSP
+18,Stage bolt,Stainless 316,,,,GSP
+19,Hexagon cap nut,Stainless 316,,,,GSP
+20,Plane washer,Stainless 316,,,,GSP
+21,Wave washer,Stainless 316,,,,GSP
+22,Key,Stainless 316,,,,GSP
+23,Base,Cast iron 150,,,,GSP
+24,Sim,Stainless 304,,,,GSP
+1,Exhaust valve,,,,,TVS
+2,Suction casing,Cast iron,,,,TVS
+3,Stage casing,Cast iron,,,,TVS
+4,Discharge casing,Cast iron,,,,TVS
+5,Bearing box with cover,Cast iron,,,,TVS
+6,Impeller,Cast iron,,,,TVS
+7,Shaft,Stainless 403,,,,TVS
+8,Sleeve,Bronze,,,,TVS
+9,Adjust ring,Steel 400,,,,TVS
+10,Deflector,Rubber,,,,TVS
+11,Separator,Cast iron,,,,TVS
+12,Wearing,Bronze,,,,TVS
+13,Gland,Bronze,,,,TVS
+14,Lantern ring,Bronze,,,,TVS
+15,Bush,Bronze,,,,TVS
+16,Tube,Nylon,,,,TVS
+17,Connecting pipe with valve seat,Cast iron,,,,TVS
+18,Flange,Cast iron,,,,TVS
+19,Plug,Brass,,,,TVS
+20,Cap,Bronze or Brass,,,,TVS
+21,Gland packing,,,,,TVS
+22,O-ring,Rubber,,,,TVS
+23,Gasket,Rubber,,,,TVS
+24,Square packing with valve body,Rubber,,,,TVS
+25,Shaft coupling with bush hole,Cast iron,,,,TVS
+26,Ball bearing,,,,,TVS
+27,Bearing cover,Cast iron,,,,TVS
+28,Stage bolt,Steel 400,,,,TVS
+29,Stage bolt,Brass,,,,TVS
+30,T bolt,Brass,,,,TVS
+31,Round head nut,Brass,,,,TVS
+32,Wave washer,Carbon steel,,,,TVS
+33,Key,Stainless 403,,,,TVS
+34,Key,Carbon steel,,,,TVS
+1,Submerged motor,,,,,WUO
+2,Casing,Resin,,,,WUO
+3,Casing cover,Resin,,,,WUO
+4,Impeller,Resin,,,,WUO
+5,Connection bend pipe,Resin,,,,WUO
+6,Square flange,Resin,,,,WUO
+7,Rhombic flange,Resin,,,,WUO
+8,Mechanical seal,,,,,WUO
+9,O-ring,Rubber,,,,WUO
+10,Packing,Rubber,,,,WUO
+11,Cap point screw,Stainless 304,,,,WUO
+12,Pan head screw,Stainless 304,,,,WUO
+13,Bolt,Stainless 304,,,,WUO
+14,Nut,Stainless 304,,,,WUO
+15,Plane washer,Stainless 304,,,,WUO
+16,Wave washer,Stainless 304,,,,WUO
+17,Clamp,Resin,,,,WUO
+18,Rod,Resin,,,,WUO
+19,Float switch,,,,,WUO
+20,Turbine oil,,,,,WUO
+1-1,Pump (No.1),,,1,1,KFE
+1-2,Pump (No.2),,,1,1,KFE
+1-3,Pump (No.3),,,1,1,KFE
+2,Accumulator,,,1,1,KFE
+3,Flexible joint,,,1,1,KFE
+4,Ball valve,,,1,1,KFE
+5,Exhaust valve,,,3,1,KFE
+6,Plug,,,3,1,KFE
+7,Check valve,,,3,1,KFE
+8-1,Flow sensor (No.1 pump),,,1,1,KFE
+8-2,Flow sensor (No.2 pump),,,1,1,KFE
+8-3,Flow sensor (No.3 pump),,,1,1,KFE
+9,Ball valve,,,3,1,KFE
+10,Connecting pipe,,,1,1,KFE
+11,Pressure transmitter,,,1,1,KFE
+12,Control panel (type: ECSG4-T),,,1,1,KFE
+13,Base,,,1,1,KFE
+1-1,Pump,,No.1,,2,KFE
+1-2,Pump,,No.2,,2,KFE
+2,Base,,,,2,KFE
+3,Flexible joint,,,,2,KFE
+4,Check valve,,,,2,KFE
+5,Accumulator,,,,2,KFE
+6,Exhaust valve,,,,2,KFE
+7,Ball valve,,,,2,KFE
+8,Control panel,,type: ECSG4,,2,KFE
+9-1,Flow sensor,,No.1 Pump,,2,KFE
+9-2,Flow sensor,,No.2 Pump,,2,KFE
+10,Pressure transmitter,,,,2,KFE
+11,Connection bend pipe,,,,2,KFE
