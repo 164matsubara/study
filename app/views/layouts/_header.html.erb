@@ -3,18 +3,28 @@
         <div class="box0">
             <%= image_tag("logo.jpg") %>
         </div>
+    <% if logged_in? %>
+            <div class="box1">
+                <%= link_to "Logout", logout_path, method: "delete" %>
+            </div>
+    <% else %>
         <div class="box1">
-            <%= link_to "Distributor login", '#' %>
+            <%= link_to "login", login_path %>
         </div>
+    <% end %>
     </div>
     
         <nav class="menu">
             <ul>
                 <li><%= link_to "Home", root_path %></li>
                 <li><%= link_to "About us", '#' %></li>
-                <li><%= link_to "Products", '#' %></li>
+                <li><%= link_to "Products", 'categories' %></li>
                 <li><%= link_to "Works", 'works_path' %></li>
-                <li><%= link_to "Download", '#' %></li>
+                
+            <% if logged_in? %>
+                <li><%= link_to "Video", 'videos' %></li>
+                <li><%= link_to "Edit", '#' %></li>
+            <% end %>
                 <li><%= link_to "Contact", '#' %></li>
             </ul>
         </nav>

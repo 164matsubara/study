@@ -1,0 +1,5 @@
+<%= video.content %>
+<%= video_tag video.video.url, controls:true, size:"640x480"  if video.video? %>
+<% if current_user == video.user %>
+<%= link_to "delete", video, method: :delete, data: { confirm: "you sure" }%>
+<% end %>

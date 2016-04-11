@@ -1,4 +1,19 @@
 Rails.application.routes.draw do
+  root to: 'static_pages#home'
+  get 'signup', to: 'users#new'
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
+  get 'add_series', to: 'series#new'
+  get 'works_path', to: 'works#index'
+  get 'videorecord', to: 'videos#new'
+  
+  resources :users
+  resources :series
+  resources :sessions, only: [:new, :create, :destroy]
+  resources :videos
+  resources :categories
+
   get 'structures/show'
 
   get 'standard_accessories/show'
@@ -15,8 +30,8 @@ Rails.application.routes.draw do
 
   get 'categories/show'
 
-  root to: 'static_pages#home'
-  get 'works_path', to: 'works#index'
+  
+  
   end  
 
   # The priority is based upon order of creation: first created -> highest priority.
