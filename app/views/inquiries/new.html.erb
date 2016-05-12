@@ -1,0 +1,42 @@
+<%= form_for(@inquiry) do |f| %>
+    
+    <h3>Inquiry</h3> 
+    
+        <% if @inquiry.errors.any? %>
+            <div class="alert alert-danger" role="alert">
+                <strong>Inquiry contains some errors</strong>
+                <ul>
+                    <% @inquiry.errors.each do |attr, msg| %>
+                    <li><%= msg %></li>
+                    <% end %>
+                </ul>
+            </div>
+        <% end %>
+    
+            <%= f.label :name %>
+            <%= f.text_field :name %>
+            
+            <%= f.label :company_name %>
+            <%= f.text_field :company_name %>
+            
+            <%= f.label :business_type %>
+            <%= f.text_field :business_type %>
+            
+            <%= f.label :position %>
+            <%= f.text_field :position %>
+            
+            <%= f.label :tel %>
+            <%= f.text_field :tel %>
+            
+            <%= f.label :countory %>
+            <%= f.text_field :countory %>
+            
+            <%= f.label :email %>
+            <%= f.text_field :email %>
+            
+            <%= f.label :content %>
+            <%= f.text_field :content %>
+            
+            <%= f.submit "Confirmation", class: 'btn btn-primary' %>
+<% end %>
+            
