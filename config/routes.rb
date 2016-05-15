@@ -5,10 +5,9 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
   get 'add_series', to: 'series#new'
-  get 'works', to: 'works#index'
   get 'videorecord', to: 'videos#new'
   
-  
+  resources :works, only: [:index]
   resources :inquiries
   resources :users
   resources :series
