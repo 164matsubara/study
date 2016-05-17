@@ -1,7 +1,7 @@
 class CreateSeries < ActiveRecord::Migration
   def change
     create_table :series do |t|
-      t.string :series_name
+      t.string :name
       t.string :product_name
       t.string :photo
       t.integer :chart_num
@@ -19,7 +19,7 @@ class CreateSeries < ActiveRecord::Migration
       t.string :structure4
       t.string :docu50link
       t.string :docu60link
-      t.string :product_categoty
+      t.string :category_id
 
       t.timestamps null: false
     end

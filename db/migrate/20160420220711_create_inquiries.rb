@@ -7,7 +7,7 @@ class CreateInquiries < ActiveRecord::Migration
       t.string :tel
       t.string :business_type
       t.string :position
-      t.string :countory
+      t.string :country
       t.string :content
 
       t.timestamps null: false

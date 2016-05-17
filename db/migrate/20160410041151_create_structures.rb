@@ -7,7 +7,7 @@ class CreateStructures < ActiveRecord::Migration
       t.string :remark
       t.integer :num
       t.integer :variation
-      t.string :series_name
+      t.string :series_id
 
       t.timestamps null: false
     end

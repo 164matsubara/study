@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'add_series', to: 'series#new'
   get 'videorecord', to: 'videos#new'
   
+  
   resources :works, only: [:index]
   resources :inquiries
   resources :users

@@ -21,7 +21,7 @@ class CreateSpecSheets < ActiveRecord::Migration
       t.float :power_factor
       t.float :max_pressure
       t.string :Hz
-      t.string :series_name
+      t.string :series_id
 
       t.timestamps null: false
     end

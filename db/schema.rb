@@ -11,27 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160420220711) do
+ActiveRecord::Schema.define(version: 20160515104640) do
 
   create_table "categories", force: :cascade do |t|
-    t.string   "product_category"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "customizables", force: :cascade do |t|
     t.string   "name"
     t.string   "remark"
-    t.string   "series_name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "series_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "features", force: :cascade do |t|
     t.string   "feature"
-    t.string   "series_name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "series_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "inquiries", force: :cascade do |t|
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 20160420220711) do
     t.string   "tel"
     t.string   "business_type"
     t.string   "position"
-    t.string   "countory"
+    t.string   "country"
     t.string   "content"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
@@ -49,13 +49,13 @@ ActiveRecord::Schema.define(version: 20160420220711) do
 
   create_table "optional_accessories", force: :cascade do |t|
     t.string   "name"
-    t.string   "series_name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "series_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "series", force: :cascade do |t|
-    t.string   "series_name"
+    t.string   "name"
     t.string   "product_name"
     t.string   "photo"
     t.integer  "chart_num"
@@ -73,9 +73,9 @@ ActiveRecord::Schema.define(version: 20160420220711) do
     t.string   "structure4"
     t.string   "docu50link"
     t.string   "docu60link"
-    t.string   "product_categoty"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.string   "category_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "spec_sheets", force: :cascade do |t|
@@ -99,7 +99,7 @@ ActiveRecord::Schema.define(version: 20160420220711) do
     t.float    "power_factor"
     t.float    "max_pressure"
     t.string   "Hz"
-    t.string   "series_name"
+    t.string   "series_id"
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
   end
@@ -107,17 +107,17 @@ ActiveRecord::Schema.define(version: 20160420220711) do
   create_table "standard_accessories", force: :cascade do |t|
     t.string   "name"
     t.string   "remark"
-    t.string   "series_name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "series_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "standard_specs", force: :cascade do |t|
     t.string   "item"
     t.string   "content"
-    t.string   "series_name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "series_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "structures", force: :cascade do |t|
@@ -127,9 +127,9 @@ ActiveRecord::Schema.define(version: 20160420220711) do
     t.string   "remark"
     t.integer  "num"
     t.integer  "variation"
-    t.string   "series_name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "series_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -138,8 +138,9 @@ ActiveRecord::Schema.define(version: 20160420220711) do
     t.string   "password_digest"
     t.string   "country"
     t.string   "profile"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+    t.integer  "authority",       default: 0, null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

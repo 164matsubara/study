@@ -3,7 +3,7 @@ class CreateCustomizables < ActiveRecord::Migration
     create_table :customizables do |t|
       t.string :name
       t.string :remark
-      t.string :series_name
+      t.string :series_id
 
       t.timestamps null: false
     end
